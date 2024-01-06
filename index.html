@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <center>   
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reycalyn Patan_Login</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+
+<body>
+	<div class="logbox">
+		<form action ="Reyca2.html" method="post" name="form" onsubmit="return validated()">
+			<h1>Login</h1>
+			<div class="input-box">
+				<input id="email_id" autocomplete="off" required minlength="8" maxlength="30" type="text" placeholder="Email" required>
+				<i class='bx bxs-user'></i>
+			</div>
+			<div class="input-box">
+				<input id="password" autocomplete="off" required minlength="8" maxlength="15" type="password" placeholder="Password" required>
+				<i class='bx bxs-lock-alt'></i>
+			</div>
+			<div class="remember">
+				<label><input type="checkbox">Remeber me</label>
+			</div>
+
+			<button type="submit" class="btn">Login</button>
+
+			<div class="register-link">
+				<p>Don't have an account? <a href="register.html">Register</a></p>
+			</div>
+		</form>
+	</div>
+	<script src="validation.js"></script>
+
+
+</center>
+</body>
+</html>
