@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url("C:\Users\Asus\Documents\webpage\luxmundiscup.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	font-family: "Poppins", sans-serif;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 20px;
+    padding: 30px 8%;
+    align-items: center;
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+	font-weight: 800;
+	text-shadow: 2px 2px 5px grey;
+}
+
+.navbar a {
+	font-size: 18px;
+	color: #222;
+	text-decoration: none;
+	font-weight: 500;
+	margin: 0 25px;
+	transition: .3s;
+	text-decoration: underline;
+}
+
+.navbar a:hover {
+	color: blue;
+}
+
+.social-media {
+	margin: 5px 0 5px;
+	width: 150px;
+	height: 40px;
+	background: transparent;
+}
+
+.social-media a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid transparent;
+	text-decoration: none;
+	transform: rotate(45deg);
+	transition: .3s;
+}
+
+.social-media a:hover {
+	border-color: #fff;
+}
+
+.social-media a i {
+	font-size: 24px;
+	color: #fff;
+	transform: rotate(-45deg);
+} 
+
+
+.About {
+	
+}
+
+
+.feed {
+	background: url("C:\Users\Asus\Documents\webpage\luxmundiscup.jpg");
+}
+
+.feed h1 {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.feed h2 {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.feed p {
+	text-align: center;
+}
+
+.gallery img {
+	width: 16.5%;
+	float: left;
+	padding: 3px;
+}
+
+.page2 {
+	top: 5px;
+	text-align: center;
+}
